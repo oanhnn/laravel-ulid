@@ -1,7 +1,7 @@
 {
   "name": "oanhnn/laravel-ulid",
   "type": "library",
-  "description": "A Laravel package",
+  "description": "A Laravel package for ULID (Universally Unique Lexicographically Sortable Identifier)",
   "keywords": [
     "laravel",
     "package",

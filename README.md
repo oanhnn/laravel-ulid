@@ -7,14 +7,14 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/oanhnn/laravel-ulid.svg)](https://packagist.org/packages/oanhnn/laravel-ulid)
 [![Requires PHP](https://img.shields.io/travis/php-v/oanhnn/laravel-ulid.svg)](https://travis-ci.org/oanhnn/laravel-ulid)
 
-A Laravel package skeleton.
+A Laravel package for ULID (Universally Unique Lexicographically Sortable Identifier).
 
 ## TODO
 
-- [ ] Make repository on [Github](https://github.com)
-- [ ] Make repository on [Travis](https://travis.org)
-- [ ] Make repository on [Coveralls](https://coveralls.io)
-- [ ] Make repository on [Packagist](https://packagist.org)
+- [x] Make repository on [Github](https://github.com)
+- [x] Make repository on [Travis](https://travis.org)
+- [x] Make repository on [Coveralls](https://coveralls.io)
+- [x] Make repository on [Packagist](https://packagist.org)
 - [x] Write logic classes
 - [ ] Write test scripts
 - [ ] Write README & documents
@@ -62,7 +62,10 @@ class TestModel extends Model
 ### Creating a model
 The UUID of a model will automatically be generated upon save.
 
+```php
 $model = MyModel::create();
+dump($model->getKey());
+```
 
 ## Changelog
 
