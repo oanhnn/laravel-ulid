@@ -46,7 +46,7 @@
   },
   "scripts": {
     "test": [
-      "@php vendor/phpunit/phpunit/phpunit --testbox --testsuite=tests"
+      "@php vendor/phpunit/phpunit/phpunit --testdox --testsuite=tests"
     ],
     "coverage": [
       "@php vendor/phpunit/phpunit/phpunit --coverage-html storage/coverage --testsuite=tests"
